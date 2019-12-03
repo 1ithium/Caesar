@@ -1,0 +1,11 @@
+C:\Users\vikis\source\repos\Caesar\Caesar\bin\Debug\Caesar.exe.config
+C:\Users\vikis\source\repos\Caesar\Caesar\bin\Debug\Caesar.exe
+C:\Users\vikis\source\repos\Caesar\Caesar\bin\Debug\Caesar.pdb
+C:\Users\vikis\source\repos\Caesar\Caesar\obj\Debug\Caesar.csprojAssemblyReference.cache
+C:\Users\vikis\source\repos\Caesar\Caesar\obj\Debug\Caesar.Form1.resources
+C:\Users\vikis\source\repos\Caesar\Caesar\obj\Debug\Caesar.Form2.resources
+C:\Users\vikis\source\repos\Caesar\Caesar\obj\Debug\Caesar.Properties.Resources.resources
+C:\Users\vikis\source\repos\Caesar\Caesar\obj\Debug\Caesar.csproj.GenerateResource.cache
+C:\Users\vikis\source\repos\Caesar\Caesar\obj\Debug\Caesar.csproj.CoreCompileInputs.cache
+C:\Users\vikis\source\repos\Caesar\Caesar\obj\Debug\Caesar.exe
+C:\Users\vikis\source\repos\Caesar\Caesar\obj\Debug\Caesar.pdb
