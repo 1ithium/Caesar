@@ -66,7 +66,7 @@ namespace Caesar
             linkLabel1.LinkVisited = true;
             //Call the Process.Start method to open the default browser
             //with a URL:
-            System.Diagnostics.Process.Start("https://github.com/1ithium/caesar");
+            System.Diagnostics.Process.Start("https://github.com/1ithium/Caesar");
         }
     }
 }
