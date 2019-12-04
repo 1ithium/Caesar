@@ -49,6 +49,8 @@ namespace Caesar
             richTextBox3.Text = decryptedText;
         }
 
+
+
         private void LinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             try
@@ -69,6 +71,15 @@ namespace Caesar
             //Call the Process.Start method to open the default browser
             //with a URL:
             System.Diagnostics.Process.Start("https://github.com/1ithium/Caesar");
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            var cipher = new RUCaesarCipher();
+            var message = richTextBox1.Text;
+            var key = Convert.ToInt32(numericUpDown1.Value);
+            var encryptedText = cipher.Encrypt(message, key);
+            richTextBox2.Text = encryptedText;
         }
     }
 }

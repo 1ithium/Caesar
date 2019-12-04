@@ -68,5 +68,14 @@ namespace Caesar
             //with a URL:
             System.Diagnostics.Process.Start("https://github.com/1ithium/Caesar");
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            var cipher = new ENCaesarCipher();
+            var message = richTextBox1.Text;
+            var key = Convert.ToInt32(numericUpDown1.Value);
+            var encryptedText = cipher.Encrypt(message, key);
+            richTextBox2.Text = encryptedText;
+        }
     }
 }
